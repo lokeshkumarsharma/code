@@ -1,2 +1,2 @@
 # code
-problem practice
+problem practice from Hakerearth and Spoj
