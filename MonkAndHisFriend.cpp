@@ -19,9 +19,9 @@ using namespace std;
 #define pl(a)     printf("%lld", a)
 #define pn        printf("\n")
 
-
 int main()
 {
+freopen("test.txt","r",stdin);
   ios_base::sync_with_stdio(false);
   int t;
   cin>>t;
