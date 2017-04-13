@@ -23,5 +23,4 @@ int main()
             cout<<"Bad"<<endl;
 	}
 	return 0;
-
 }
