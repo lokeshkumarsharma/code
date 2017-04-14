@@ -57,15 +57,6 @@ void kosaraju()
 	   		dfs_backward(v);
 	   	}
 	}
-	/*while(!st.empty())
-	{
-		int x=st2.top();
-		st2.pop();
-		if(visited[x]==true)
-		{
-			ct++;
-		}
-	}*/
 
 }
 int main()
@@ -88,14 +79,6 @@ int main()
 		    cin>>str[i];
 			//scanf("%s",&str[i]);
 		}
-		/*for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<n;j++)
-            {
-                cout<<str[i][j]<< " ";
-            }
-            cout<<endl;
-        }*/
 
 		for(int i=0;i<n;i++)
 		{
