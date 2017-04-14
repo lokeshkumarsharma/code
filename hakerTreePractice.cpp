@@ -21,22 +21,6 @@ struct node* insertNode(int data,struct node *add){
     return add;
     }
 }
-struct node* insert1(struct node* node, int key)
-{
-    if (node == NULL){
-        struct node* new1=(struct node*)malloc(sizeof(struct node));
-        new1->data=key;
-        new1->left=NULL;
-        new1->right=NULL;
-        return new1;
-    }
-    /* Otherwise, recur down the tree */
-    if (key < node->data)
-        node->left  = insert1(node->left, key);
-    else if (key > node->data)
-        node->right = insert1(node->right, key);
-    return node;
-}
 void preorder(struct node * add){
     if(add==NULL)
         return;
@@ -54,14 +38,6 @@ struct node* searchNode(struct node* temp, int data){
     if(data>temp->data)
         temp=searchNode(temp->right,data);
     return temp;
-}
-struct node* search1(struct node* add, int key)
-{
-    if (add == NULL || add->data == key)
-       return add;
-    if (add->data < key)
-       return search1(add->right, key);
-    return search1(add->left, key);
 }
 int main()
 {
