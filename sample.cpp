@@ -75,17 +75,6 @@ int main()
 			cin>>v[i];
 			assert(0<= v[i] && v[i]<= 1000000000000);
   		}
-    		set<ll int>mys;
-    		rep(i,n)
-      		mys.insert(v[i]);
-    		for(i=n;i<n+m;i++)
-    		{
-      			if(mys.find(v[i])!=mys.end())
-        		cout<<"YES\n";
-      			else
-        		cout<<"NO\n";
-      			mys.insert(v[i]);
-  		}
   	}
 	return 0;
 }
