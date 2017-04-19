@@ -57,6 +57,9 @@ typedef unsigned long long int uint64;
 typedef long long int int64;
 int a[100005]={0};
 
+void func1(){
+}
+
 int main()
 {
 	freopen("input.txt","r",stdin);
