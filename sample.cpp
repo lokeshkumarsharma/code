@@ -6,7 +6,7 @@ using namespace std;
 #define rep1(i,n) for(i=1;i<=n;i++)
 #define repab(i,a,b) for(ll i=a;i<b;i++)
 #define repl(i,n) for(ll i=0;i<n;i++)
-#define ict int t;cin>>t;while(t--)
+#define ict int t;scanf("%d",&t);while(t--)
 #define lct long long int t;cin>>t;while(t--)
 #define in(a) int a; cin>>a;
 #define llin(a) ll a; cin>>a;
@@ -67,8 +67,7 @@ int main()
 	memset(a,0,sizeof(a));
 	int t;
 	cin>>t;
-	while(t--)
-	{
+	ict(){
 		int i,j,n,m;
 	 	cin>>n>>m;
 		assert(1<=n && n<=100000);
