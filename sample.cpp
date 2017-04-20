@@ -65,8 +65,6 @@ int main()
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
 	memset(a,0,sizeof(a));
-	int t;
-	cin>>t;
 	ict(){
 		int i,j,n,m;
 	 	cin>>n>>m;
