@@ -7,7 +7,7 @@ using namespace std;
 #define repab(i,a,b) for(ll i=a;i<b;i++)
 #define repl(i,n) for(ll i=0;i<n;i++)
 #define ict int t;scanf("%d",&t);while(t--)
-#define lct long long int t;cin>>t;while(t--)
+#define lct long long int t;scanf("%d",&t);while(t--)
 #define in(a) int a; cin>>a;
 #define llin(a) ll a; cin>>a;
 
