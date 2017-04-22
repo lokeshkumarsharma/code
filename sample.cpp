@@ -17,6 +17,7 @@ using namespace std;
 #define pl(a)     printf("%lld", a)
 #define pn        printf("\n")
 #define get1(c1)  c1=gets()
+#define put1(c1)  puts(c1)
 
 #define ll long long
 #define ll long long
