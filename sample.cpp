@@ -16,6 +16,7 @@ using namespace std;
 #define pi(a)     printf("%d", a)
 #define pl(a)     printf("%lld", a)
 #define pn        printf("\n")
+#define get1(c1)  c1=gets()
 
 #define ll long long
 #define ll long long
