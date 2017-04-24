@@ -19,6 +19,7 @@ using namespace std;
 #define tn	  printf("\t")
 #define get1(c1)  c1=gets()
 #define put1(c1)  puts(c1)
+#define wh(n)     while(n>0)
 
 #define ll long long
 #define ll long long
@@ -61,8 +62,8 @@ typedef long long int int64;
 int a[100005]={0};
 
 void func1(){
-}
 
+}
 int main()
 {
 	freopen("input.txt","r",stdin);
