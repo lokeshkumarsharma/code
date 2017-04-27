@@ -62,7 +62,9 @@ typedef long long int int64;
 int a[arsize]={0};
 
 void func1(){
+}
 
+void func2(int a[], int n){
 }
 int main()
 {
