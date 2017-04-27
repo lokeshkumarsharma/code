@@ -43,7 +43,7 @@ using namespace std;
 #define EPS 1e-5
 #define INF (1<<28)
 #define pi 3.141593
-
+#define arsize 100005
 
 typedef long long int ll; // [9,223,372,036,854,775,807 to -9.....808]
 typedef vector<int> vi;
@@ -59,7 +59,7 @@ typedef map<int,int> mapii;
 typedef map<ll, ll> mapll;
 typedef unsigned long long int uint64;
 typedef long long int int64;
-int a[100005]={0};
+int a[arsize]={0};
 
 void func1(){
 
