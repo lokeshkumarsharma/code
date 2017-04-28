@@ -73,7 +73,7 @@ int main()
 	memset(a,0,sizeof(a));
 	ict(){
 		int i,j,n,m;
-	 	cin>>n>>m;
+		si(n),si(m);
 		assert(1<=n && n<=100000);
 		assert(1<=m && m<=100000);
 		vector<ll int>v(n+m);
