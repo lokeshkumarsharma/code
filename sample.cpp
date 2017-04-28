@@ -78,7 +78,7 @@ int main()
 		assert(1<=m && m<=100000);
 		vector<ll int>v(n+m);
 		rep(i,n+m){
-			cin>>v[i];
+			si(v[i]);
 			assert(0<= v[i] && v[i]<= 1000000000000);
   		}
   	}
