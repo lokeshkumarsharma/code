@@ -20,6 +20,7 @@ using namespace std;
 #define get1(c1)  c1=gets()
 #define put1(c1)  puts(c1)
 #define wh(n)     while(n>0)
+#define mem(a)	  memset(a,0,sizeof(a))
 
 #define ll long long
 #define ll long long
@@ -71,6 +72,7 @@ int main()
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
 	memset(a,0,sizeof(a));
+	mem(a);
 	ict(){
 		int i,j,n,m;
 		si(n),si(m);
