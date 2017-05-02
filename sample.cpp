@@ -69,6 +69,7 @@ void func2(int a[], int n){
 }
 int main()
 {
+	_;
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
 	mem(a);
