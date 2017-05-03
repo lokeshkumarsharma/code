@@ -62,7 +62,7 @@ typedef unsigned long long int uint64;
 typedef long long int int64;
 int a[arsize]={0};
 
-void func1(){
+void func1(int n){
 }
 
 void func2(int a[], int n){
