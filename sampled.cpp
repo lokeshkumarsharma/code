@@ -13,7 +13,7 @@ using namespace std;
 
 #define si(a)     scanf("%d", &a)
 #define sl(a)     scanf("%lld", &a)
-#define pi(a)     printf("%d", a)
+#define pr(a)     printf("%d", a)
 #define pl(a)     printf("%lld", a)
 #define pn        printf("\n")
 #define tn	  printf("\t")
@@ -22,7 +22,6 @@ using namespace std;
 #define wh(n)     while(n>0)
 #define mem(a)	  memset(a,0,sizeof(a))
 
-#define ll long long
 #define ll long long
 #define elif else if
 #define ff first
@@ -46,11 +45,11 @@ using namespace std;
 #define pi 3.141593
 #define arsize 100005
 
-typedef long long int ll; // [9,223,372,036,854,775,807 to -9.....808]
+typedef long long int lli; // [9,223,372,036,854,775,807 to -9.....808]
 typedef vector<int> vi;
 typedef vector<ll> vl;
 typedef vector<string> vs;
-typedef pair<int,int> pii;
+//typedef pair<int,int> pii;
 typedef pair<ll,ll> pll;
 typedef set<int> si;
 typedef set<ll> sl;
@@ -62,12 +61,6 @@ typedef unsigned long long int uint64;
 typedef long long int int64;
 int a[arsize]={0};
 
-void func1(int n){
-
-}
-
-void func2(int a[], int n){
-}
 int main()
 {
 	_;
@@ -81,9 +74,10 @@ int main()
 		assert(1<=m && m<=100000);
 		vector<ll int>v(n+m);
 		rep(i,n+m){
-			si(v[i]);
-			assert(0<= v[i] && v[i]<= 1000000000000);
+			si(a[i]);
+			assert(0<= a[i] && a[i]<= 1000000000000);
   		}
   	}
 	return 0;
 }
+
