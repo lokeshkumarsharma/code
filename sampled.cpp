@@ -50,7 +50,7 @@ typedef vector<int> vi;
 typedef vector<ll> vl;
 typedef vector<string> vs;
 //typedef pair<int,int> pii;
-typedef pair<ll,ll> pll;
+//typedef pair<ll,ll> pll;
 typedef set<int> si;
 typedef set<ll> sl;
 typedef map<string, ll> mapsl;
@@ -72,7 +72,6 @@ int main()
 		si(n),si(m);
 		assert(1<=n && n<=100000);
 		assert(1<=m && m<=100000);
-		vector<ll int>v(n+m);
 		rep(i,n+m){
 			si(a[i]);
 			assert(0<= a[i] && a[i]<= 1000000000000);
