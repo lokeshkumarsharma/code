@@ -59,6 +59,7 @@ typedef map<int,int> mapii;
 typedef map<ll, ll> mapll;
 typedef unsigned long long int uint64;
 typedef long long int int64;
+typedef int* pint;
 int a[arsize]={0};
 
 int main()
@@ -79,4 +80,3 @@ int main()
   	}
 	return 0;
 }
-
