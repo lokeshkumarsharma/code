@@ -60,6 +60,18 @@ typedef map<ll, ll> mapll;
 typedef unsigned long long int uint64;
 typedef long long int int64;
 typedef int* pint;
+
+template<typename T> T lcm(T a, T b){return (a*(b/__gcd(a,b)));}
+template<typename T> T MOD(T a, T b) {return (a<b ? a : a%b);}
+template<typename T> T add(T a, T b, T c){T x=a+b;return (x>=c ? x-c : x);}
+template<typename T> T mod_neg(T a, T b) {a=MOD(a, b);if(a<0){a+=b;}return a;}
+template<typename T> T expo(T e, T n){T x=1,p=e;while(n){if(n&1)x=x*p;p=p*p;n>>=1;}return x;}
+template<typename T> T power(T e, T n, T m){T x=1,p=e;while(n){if(n&1)x=MOD(x*p,m);p=MOD(p*p,m);n>>=1;}return x;}
+template<typename T> T extended_euclid(T a, T b, T &x, T &y){T xx=0,yy=1;y=0;x=1;while(b){T q=a/b,t=b;b=a%b;a=t;t=xx;\
+xx=x-q*xx;x=t;t=yy;yy=y-q*yy;y=t;}return a;}
+template<typename T> T mod_inverse(T a, T n){T x,y;T d = extended_euclid(a, n, x, y);return (d>1?-1:mod_neg(x,n));}
+#define tcsolve() int tcs; scan(tcs); while(tcs--) solve();
+
 int a[arsize]={0};
 
 int main()
